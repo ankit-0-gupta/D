@@ -30,8 +30,8 @@ public class Solution
     {
        while(n != 0)
        {
-           int remainder = n % 10;
-           System.out.println(remainder);
+           int digit = n % 10;
+           System.out.println(digit);
            n /= 10;
        }
     }
